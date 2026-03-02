@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-color:rgb(17, 17, 17);
+    font-family: 'Roboto';
+    margin: auto;
+    padding: 20px;
+    max-width: 900px;
+    color: white;
+}
+h1 {
+    font-size: 300%;
+    font-family: cursive;
+    font-weight: 100;
+}
+h2 {
+    font-size: 175%;
+    font-family: cursive;
+    font-weight: 100;
+}
+            #sign_up h2 {
+                color: black;
+                font-size: 250%;
+                font-family: 'PT Sans';
+            }
+            #sign_up {
+                background-color: white;
+                border: 1px solid gray;
+                border-radius: 10px;
+                text-align: center;
+                padding: 50px 100px;
+                margin: 0 auto;
+                max-width: fit-content;
+            }
+            table {
+                background-color: white;
+                border-radius: 5px;
+            }
+            .most_important {
+                color: white;
+                /*border: 1px solid gray;*/
+                padding: 15px;
+                border-radius: 10px;
+            }
+            .terminal {
+                background-color: black;
+                font-family: 'JetBrains Mono';
+                color: white;
+                padding: 0px 0px 10px 5px;
+                margin: 5px;
+            }
+            .terminal h3 {
+                background-color: black;
+                color: white;
+                text-align: center;
+            }
+            button, .button {
+                cursor: pointer;
+                background-color: rgb(106, 214, 106);
+                padding: 5px;
+                border: none;
+                border-radius: 10%;
+                font-family: Roboto;
+            }
+            button:hover, .button:hover {
+                background-color: rgb(74, 161, 74);
+            }
+            .user_host {
+                color:red;
+            }

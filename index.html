@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta lang="en">
+        <meta charset="UTF-8">
+        <title>Test</title>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 style="text-align: center;">Welcome to my page!</h1>
+        <h2>Most Important Things in Life</h2>
+        <div class="most_important">
+                <ul>
+                <li>Sex
+                    <ul>
+                        <li>Sex is the biological trait of a reproducing organism in producing gametes of one of two different sizes or shapes—male or female gametes.</li>
+                    </ul>
+                </li>
+                <li>Drugs
+                    <ul>
+                        <li>A drug is any chemical substance other than a nutrient or an essential dietary ingredient, which, when administered to a living organism, produces a biological effect.</li>
+                    </ul>
+                </li>
+                <li>Heavy Metal
+                    <ul>
+                        <li>Heavy metal (or simply metal) is a genre of rock music that developed in the late 1960s and early 1970s, largely in the United Kingdom and United States.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <table>
+        </table>
+            <div class="terminal">
+                <h3>Terminal</h3>
+                <p><span class="user_host">kaos@host</span>:~$ echo "Terminal test"</p>
+                <p>Terminal test</p>
+                <p><span class="user_host">kaos@host</span>:~$ sudo rm -rf /</p>
+            </div>
+        <button onclick="alert('You have been hacked /j')">Click Me</button>
+                <div id="sign_up">
+            <h2>Sign Up</h2>
+            <form action="http://localhost/submit" method="POST">
+                <label for="username" required>Username</label>
+                <br>
+                <input type="text" id="username" name="username" maxlength="20" required placeholder="admin">
+                <br>
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="name@example.com" maxlength="254" required>
+                <br>
+                <br>
+                <label for="password">Password</label>
+                <br>
+                <input type="password" id="password" name="password" required placeholder="password123">
+                <br>
+                <br>
+                <label for="gender">Gender</label>
+                <br>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="non_binary">Non-binary</option>
+                    <option value="other">Other</option>
+                    <option value="no_answer">I don't feel like answering</option>
+                </select>
+                <br>
+                <br>
+                <input type="submit" value="Create Account" class="button">
+                <br>
+            </form>
+        </div>
+        <!-- <script src="app.js"></script> !-->
+    </body>
+</html>
